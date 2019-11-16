@@ -9,7 +9,7 @@ while gameVars.player is False:
 	print("===========================================")
 	print(" ")
 	print("Chosose your weapon!\n")
-	player=input("choose rock, paper or scissors:")
+	player=input("Choose rock, paper or scissors: ")
 	compare.compareChoices(player)
 
 

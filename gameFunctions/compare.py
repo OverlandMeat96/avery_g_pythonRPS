@@ -1,10 +1,9 @@
 from gameFunctions import gameVars
 
-
 def compareChoices(player):
 	if player == gameVars.computer:
 		print(" ")
-		print("Tie, no one wins! try again", "\n")
+		print("Tie, no one wins. Try again", "\n")
 
 	elif player == "quit":
 		print(" ")
@@ -28,7 +27,7 @@ def compareChoices(player):
 			gameVars.player_lives = gameVars.player_lives -1
 		else:
 			print(" ")
-			print("You won!", player, "cover", gameVars.computer, "\n")
+			print("You won!", player, "covers", gameVars.computer, "\n")
 			gameVars.computer_lives = gameVars.computer_lives -1
 
 	elif player == "scissors":
