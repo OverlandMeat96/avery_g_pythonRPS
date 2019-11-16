@@ -4,10 +4,8 @@
 ## Requirements
 The only requirement to play this game is that [python 3](https://www.python.org/downloads/) is installed on your system. 
 
-Not a lot - you'll need git installed localy, as well as a preprocessor like [SASS](https://sass-lang.com/) for CSS compilation. A good code editor helps too!
-
 ## Installation, etc
-CD to the location of your choice, and then git clone. Run the game.py file in a Python3 Terminal window for Mac / Linux, or the powershell for Windows.
+Clone the project, navigate to the correct directory - `cd directory name` - and rin the `game.py` file in a Python 2 Terminal window for macOS / Linux. For windows, simply install pythin 3 then click on the `game.py` file to play. 
 
 ## Rules 
 The rules are the same as the classic game:
@@ -17,14 +15,16 @@ The rules are the same as the classic game:
 
 *Chose your weapon wisely!*
 
+The computer chooses first; just follow the prompts.
+
 Enjoy!
 
-## Built with:
+### Built with:
 <ul>
 	<li>Python 3</li>
 </ul>
 
-## Authors
+### Authors
 <ul>
 	<li>Greg Avery - front-end dev</li>
 <ul>
